@@ -1,0 +1,16 @@
+@keyframes move {
+    from{
+        margin-top: 0;
+    }
+
+    to{
+        margin-top: 100%;
+    }
+}
+
+.box{
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
